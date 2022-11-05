@@ -2,9 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 # Screenshot of the app
-![Images](Screenshot1.png)
-![Images](Screenshot2.png)
-![Images](Screenshot3.png)
+![Images](./images/Screenshot1.png)
+![Images](./images/Screenshot2.png)
+![Images](./images/Screenshot3.png)
 ## Available Scripts
 
 In the project directory, you can run:
