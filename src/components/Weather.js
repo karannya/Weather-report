@@ -5,7 +5,7 @@ import axios from "axios";
 function Weather({ inputdata }) {
     const [data, setData] = useState([]);
     const api_Key = process.env.REACT_APP_API_KEY;
-    const api_Url = `http://dataservice.accuweather.com/forecasts/v1/daily/1day/${inputdata.Key}?apikey=${api_Key}`
+    const api_Url = `https://dataservice.accuweather.com/forecasts/v1/daily/1day/${inputdata.Key}?apikey=${api_Key}`
     console.log(inputdata.Key)
     
     useEffect(() => {

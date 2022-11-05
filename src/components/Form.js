@@ -8,7 +8,7 @@ function Form() {
   const [cityInfo, setcityInfo] = useState([])
 
   const api_Key = process.env.REACT_APP_API_KEY;
-  const api_Url = `http://dataservice.accuweather.com/locations/v1/cities/search?apikey=${api_Key}&q=${cityInfo}`;
+  const api_Url = `https://dataservice.accuweather.com/locations/v1/cities/search?apikey=${api_Key}&q=${cityInfo}`;
 
   const showData = async() => {
     try {
